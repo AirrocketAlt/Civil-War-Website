@@ -1,3 +1,4 @@
+<style>
 html {
 	background-color: #dadde5
 }
@@ -7,7 +8,6 @@ html {
 }
 
 body { 
-	background-color: grey;
 	font-family: Arial;
 	color: black;
 	margin: 0;
@@ -47,11 +47,14 @@ header {
 	background-color: grey;
 }
 
+.content {
+	background-color: white;
+}
+
 footer {
 	background-color: #fff;
 	padding: 3%;
 	text-align: center;
-	margin-top: 5%;
 }
 
 .footerLink {
@@ -60,3 +63,5 @@ footer {
 	display: block;
 	float: left;
 } #ftLnk2 {border-right: none;}
+
+</style>
